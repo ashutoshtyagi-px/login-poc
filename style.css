@@ -1,0 +1,73 @@
+
+.logo img{
+    margin-left: 72px;
+    margin-top: 40px;
+}
+.seperator{
+    width: 100%;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    line-height: .1em;
+    margin: 2em 0em;
+}
+.seperator span{
+    background-color: #fff;
+    padding: 0px 5px;
+}
+.oidc .oidc-sep{
+    width: 20px;
+}
+.register{
+    margin: 20px 0px;
+}
+.register a{
+    margin-left: 10px;
+}
+footer{
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+}
+.left-side{
+    height: 100vh;
+}
+.left-side > .row.d-flex{
+    min-height: 100%;
+    flex-flow: column wrap;
+}
+.left-side > .row.d-flex > .content{
+flex: 1;
+}
+.left-side > .row.d-flex > .logo{
+    height: 50px;
+}
+
+.content .form{
+    max-width:95%;
+    margin: 0 auto;
+}
+.content{
+    margin-top: 32px;
+}
+@media screen and (min-width: 576px) {
+    .content{
+        margin-top: 80px;
+    }
+    .content .form{
+        max-width: 512px;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    .content{
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logo img{
+        margin-top: 16px;
+        margin-left: 16px;;
+    }
+}
